@@ -33,13 +33,34 @@
 }
 
 .slide1 {
-   background-image: url('../images/IoTpic.jpg');
+   background-image: url('../images/앰프.jpg');
    background-size: cover;
    background-position: center;
 }
 
 .slide2 {
-   background-image: url('../images/IoTpic.jpg');
+   background-image: url('../images/이어폰.jpg');
    background-size: cover;
    background-position: center;
+}
+
+.slide3 {
+   background-image: url('../images/일렉.jpg');
+   background-size: cover;
+   background-position: center;
+}
+
+.slide4 {
+   background-image: url('../images/오인페.jpg');
+   background-size: cover;
+   background-position: center;
+}
+
+.soundContent__sub {
+   background-color: #f9fafe;
+}
+
+.soundContent__sub .sub {
+   background-color: #fff;
+   border-radius: 15px;
 }
