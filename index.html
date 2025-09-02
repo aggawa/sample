@@ -4,6 +4,95 @@
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>랜딩페이지</title>
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+      <!-- bootstrap -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+      <!-- swiper -->
+      <link rel="stylesheet" href="assets/css/styles.css" />
+      <link rel="stylesheet" href="assets/css/commons.css" />
+      <!-- my css -->
    </head>
-   <body></body>
+   <body>
+      <header></header>
+      <section class="kv">
+         <!-- Swiper -->
+         <div class="swiper kvSlider">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide slide1">
+                  <div class="kv--title text-center">
+                     <h2>
+                        사운드의 힘,<br />
+                        앰프에서 시작됩니다.
+                     </h2>
+                     <a href="#" class="vk--title__cta mt-20">공연과 스튜디오를 지탱하는 확실한 파워.</a>
+                  </div>
+               </div>
+               <div class="swiper-slide slide2">
+                  <div class="kv--title text-center">
+                     <h2>귀로 검증되는 디테일</h2>
+                     <a href="#" class="vk--title__cta mt-20">고품질 이어폰으로 놓치지 않는 사운드의 결.</a>
+                  </div>
+               </div>
+            </div>
+            <div class="swiper-pagination"></div>
+         </div>
+      </section>
+      <!-- kv end -->
+      <!-- content start -->
+      <section class="aiContent common-padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="content--title text-center">
+                     <h3 class="line">프로 뮤지션을 위한 확실한 선택</h3>
+                     <p>무대, 연습, 녹음까지 - 어떤 상황에서도 안정적인 퍼포먼스를 제공합니다.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row text-center mt-40">
+               <div class="col-md-3 col-6">
+                  <div class="service">
+                     <img src="assets/images/icon/carbon_data-check.svg" alt="아이콘" class="mt-20" />
+                     <h4 class="mt-40">하이 파워 앰프</h4>
+                     <p class="mt-20">무대를 장악하는 강력한 출력</p>
+                  </div>
+               </div>
+               <div class="col-md-3 col-6">
+                  <div class="service">
+                     <img src="assets/images/icon/cil_router.svg" alt="아이콘" class="mt-20" />
+                     <h4 class="mt-40">레퍼런스 이어폰</h4>
+                     <p class="mt-20">미세한 음색까지 정확하게 재현</p>
+                  </div>
+               </div>
+               <div class="col-md-3 col-6">
+                  <div class="service">
+                     <img src="assets/images/icon/clarity_rack-server-line.svg" alt="아이콘" class="mt-20" />
+                     <h4 class="mt-40">스테이지 일렉</h4>
+                     <p class="mt-20">내구성과 퍼포먼스를 모두 갖춘 연주용 기타</p>
+                  </div>
+               </div>
+               <div class="col-md-3 col-6">
+                  <div class="service">
+                     <img src="assets/images/icon/Frame 1.svg" alt="아이콘" class="mt-20" />
+                     <h4 class="mt-40">밸런스드 베이스</h4>
+                     <p class="mt-20">사운드를 완성하는 깊고 단단한 저음</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- content end -->
+      <script src="assets/js/jquery.slim.min.js"></script>
+      <script src="assets/js/bootstrap.bundle.min.js"></script>
+      <!-- bootstrap -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script>
+         var swiper = new Swiper('.kvSlider', {
+            pagination: {
+               el: '.swiper-pagination',
+            },
+         })
+      </script>
+      <!-- swiper -->
+   </body>
 </html>
