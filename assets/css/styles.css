@@ -115,3 +115,13 @@
 .service img {
    width: 28%;
 }
+
+/* footer */
+.footer {
+   background-color: #000;
+}
+
+.footer p,
+h5 {
+   color: #fff;
+}
