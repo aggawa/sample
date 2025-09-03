@@ -36,28 +36,32 @@
    background-image: url('../images/앰프.jpg');
    background-size: cover;
    background-position: center;
+   color: #fff;
 }
 
 .slide2 {
    background-image: url('../images/이어폰.jpg');
    background-size: cover;
    background-position: center;
+   color: #fff;
 }
 
 .slide3 {
    background-image: url('../images/일렉.jpg');
    background-size: cover;
    background-position: center;
+   color: #fff;
 }
 
 .slide4 {
    background-image: url('../images/오인페.jpg');
    background-size: cover;
    background-position: center;
+   color: #fff;
 }
 
 .soundContent__sub {
-   background-color: #f9fafe;
+   background-color: #c9d4ff;
 }
 
 .soundContent__sub .sub {
